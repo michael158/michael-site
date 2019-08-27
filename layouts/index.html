@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ block "home" . }}{{ partialCached "sections/home.html" . }}{{ end }}
+
+{{ block "about" . }}{{ partialCached "sections/about.html" . }}{{ end }}
+
+{{ block "jobs" . }}{{ partialCached "sections/jobs.html" . }}{{ end }}
+
+{{ block "gallery" . }}{{ partialCached "sections/gallery.html" . }}{{ end }}
+
+{{ block "contact" . }}{{ partialCached "sections/contact.html" . }}{{ end }}
+
+{{ end }}

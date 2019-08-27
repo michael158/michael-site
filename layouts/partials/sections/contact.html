@@ -1,0 +1,40 @@
+
+<section id="CONTACT" data-scroll-reveals>
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <h1> Contato</h1>
+            </div>
+            <div class="col-md-6">
+                <form id="form-contact" action="app/Controller/ContatoController.php">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" name="data[name]" class="form-control" placeholder="Seu Nome"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="data[email]" class="form-control" placeholder="Seu Email"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea name="data[message]" class="form-control" rows="10" required="required"></textarea>
+                    </div>
+                    <div id="recaptcha" data-size="100%" style="margin-bottom: 10px"></div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <iframe width="100%" height="425" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdeKa3xg9WpMRJEp1aeRwhHM&key=AIzaSyAJ2P0o9MPf75SSkNVsZJZN2LtJtjE8Ofw"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-md-12 contact-details">
+                <span><i class="fa fa-envelope primary-color"></i> <label>Email:</label> michael.dsa41@gmail.com</span>
+                <span><i class="fa fa-phone primary-color"></i> <label>Telefone:</label> (61)3024-6479</span>
+                <span><i class="fa fa-phone primary-color"></i> <label>Celular:</label> (61)98217-5482</span>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/frameworks/jquery.min.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/frameworks/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/plugins/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/plugins/scrollreveal.min.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/plugins/sweetalert.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/plugins/jquery.validate.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/init.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/animations.js"></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/flickrGallery.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}dist/js/contact.js"></script>
+{{ end }}
