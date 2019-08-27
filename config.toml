@@ -1,4 +1,4 @@
 baseURL = "https://michaelalves.dev/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "pt-BR"
+title = "Michael Douglas Developer"
 theme = "ananke"
