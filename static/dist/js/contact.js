@@ -1,9 +1,8 @@
-var onloadCallback = function() {
-    grecaptcha.render('recaptcha', {
-        'sitekey' : '6LfjSCMTAAAAAHkeZ0LpxBhYao3Wj0mNLW0acZgT',
-        'callback' : correctCaptcha
-    });
+emailjs.init("user_mdEhcWYvg9Yl6uclgSRSv");
 
+
+var onloadCallback = function () {
+    renderCaptcha();
 };
 
 var correctCaptcha = function (response) {
@@ -25,10 +24,9 @@ form.validate();
 $(document).on('click', '#btn-contact', function (e) {
     e.preventDefault();
 
-    if(isCaptchaChecked())
+    if (isCaptchaChecked())
         sendMail();
 });
-
 
 
 function isCaptchaChecked() {
@@ -36,57 +34,51 @@ function isCaptchaChecked() {
 }
 
 
-
-
-
 function sendMail() {
     let data = getContactData();
-    let apiKey = 'key-c59268153cedf8d8488744c5b0dafe5e';
 
-    let url = 'https://api:'+ apiKey + '@api.mailgun.net/v3/mailgun.michaeldeveloper.com.br/messages';
+    $('#recaptcha').remove();
 
-    $.ajax({
-        method: 'post',
-        data:data,
-        url: url,
-        dataType: 'json',
-        beforeSend: function () {
-            swal({
-                title: "Enviando!",
-                text: "Aguarde a mensagem está sendo enviada...",
-                showConfirmButton: false,
-                allowOutsideClick: false
-            });
-        },
-        success: function (data) {
-            swal("Sucesso!", data.message.content, data.message.type);
-        },
-        error: function (data) {
-            var obj = $.parseJSON(data.responseText);
-            swal("Erro!", obj.message.content, obj.message.type);
-        },
-        complete: function () {
+    swal({
+        title: "Enviando!",
+        text: "Aguarde a mensagem está sendo enviada...",
+        showConfirmButton: false,
+        allowOutsideClick: false
+    });
+
+    emailjs.send('mailgun', 'contact', data)
+        .then(function (response) {
+            swal("Sucesso!", 'Email enviado com sucesso', 'success');
+
             form.trigger('reset')
             $('#btn-contact').remove();
-            grecaptcha.render('recaptcha', {
-                'sitekey' : '6LfjSCMTAAAAAHkeZ0LpxBhYao3Wj0mNLW0acZgT',
-                'callback' : correctCaptcha
-            });
-        }
-    })
+            renderCaptcha();
+        }, function (error) {
+            swal("Erro!", error, 'error');
+        });
+}
+
+function renderCaptcha() {
+    var html = '<div id="recaptcha" style="margin-bottom: 10px"></div>';
+    form.append(html);
+
+    grecaptcha.render('recaptcha', {
+        'sitekey': '6LfjSCMTAAAAAHkeZ0LpxBhYao3Wj0mNLW0acZgT',
+        'callback': correctCaptcha
+    });
 }
 
 
 function getContactData() {
     let name = $('input[name=name]', form).val();
     let email = $('input[name=email]', form).val();
-    let message =  $('textarea[name=message]', form).val();
+    let message = $('textarea[name=message]', form).val();
 
     return {
-        from : email,
-        to : 'michael.dsa41@gmail.com',
-        subject: 'Contato do site michael.dev <'+ name +'>',
-        text: message,
+        name: name,
+        email: email,
+        subject: 'Contato do site michael.dev ' + name,
+        body: message,
     };
 }
 

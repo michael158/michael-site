@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    $('html').niceScroll();
+    showYearsOfWork();
+
+
     // Margem do topo
     var navbarOffset = $('.navbar').height();
     var windowHeight = $(window).height();
@@ -44,3 +46,10 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 
 });
+
+
+
+function showYearsOfWork() {
+    let now = new Date();
+    $('.years-of-work').html( now.getFullYear() - 2014);
+}

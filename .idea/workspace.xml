@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d3c51f-a2f2-4da3-a335-23960caa5e93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/partials/sections/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/sections/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/sections/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/sections/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/site-scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/site-scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/ananke" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ananke" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/ananke/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ananke/layouts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/ananke/layouts/partials/site-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ananke/layouts/partials/site-navigation.html" afterDir="false" />
@@ -37,29 +50,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/sections/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/dist/js/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="345">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/dist/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/dist/js/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="243">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/dist/css/plugin/sweetalert.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/site-scripts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -77,25 +105,7 @@
         <entry file="file://$PROJECT_DIR$/layouts/partials/sections/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/sections/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -104,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -112,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/_default/baseof.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="174">
+              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -146,7 +156,6 @@
         <option value="$PROJECT_DIR$/public/dist/css/style.css" />
         <option value="$PROJECT_DIR$/layouts/sections/home.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/layouts/partials/site-scripts.html" />
         <option value="$PROJECT_DIR$/layouts/partials/site-navigation.html" />
         <option value="$PROJECT_DIR$/static/dist/css/style.css" />
         <option value="$PROJECT_DIR$/layouts/partials/site-footer.html" />
@@ -154,12 +163,13 @@
         <option value="$PROJECT_DIR$/layouts/partials/sections/gallery.html" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/layouts/_default/baseof.html" />
         <option value="$PROJECT_DIR$/config.toml" />
-        <option value="$PROJECT_DIR$/layouts/partials/sections/contact.html" />
-        <option value="$PROJECT_DIR$/static/dist/js/contact.js" />
         <option value="$PROJECT_DIR$/layouts/partials/sections/about.html" />
         <option value="$PROJECT_DIR$/static/dist/js/init.js" />
+        <option value="$PROJECT_DIR$/layouts/partials/site-scripts.html" />
+        <option value="$PROJECT_DIR$/layouts/_default/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/sections/contact.html" />
+        <option value="$PROJECT_DIR$/static/dist/js/contact.js" />
       </list>
     </option>
   </component>
@@ -192,14 +202,39 @@
               <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="michael-site" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="_default" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="michael-site" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael-site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael-site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael-site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael-site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,11 +255,11 @@
       <recent name="$PROJECT_DIR$/layouts/static/dist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/dist/css" />
       <recent name="$PROJECT_DIR$/layouts/partials" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/dist" />
       <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="$PROJECT_DIR$/layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,19 +284,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566912892687</updated>
-      <workItem from="1566912894533" duration="9749000" />
+      <workItem from="1566912894533" duration="12329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9749000" />
+    <option name="totallyTimeSpent" value="12329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="25" width="1920" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -432,13 +467,6 @@
     <entry file="file://$PROJECT_DIR$/public/categories/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/site-scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ananke/layouts/partials/site-navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -512,17 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_default/baseof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -530,16 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,24 +568,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/sections/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/sections/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="57" />
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="474">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/site-scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/plugin/sweetalert.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/sections/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
