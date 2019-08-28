@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    $('html').niceScroll();
     // Margem do topo
     var navbarOffset = $('.navbar').height();
     var windowHeight = $(window).height();
